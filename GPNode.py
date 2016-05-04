@@ -1,5 +1,6 @@
 class GPNode:
     type = None
+    name = None
     parent = None
     children = []
     def isRoot(self):
